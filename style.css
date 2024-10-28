@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body {
+    background-image: url('./bg.jpg');
+}
+
+div {
+    width: 1335px;
+    height: 50px;
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    width: 243px;
+    height: 50px;
+    border-radius: 22px;
+    border: 1px solid white;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    font-family: 'StratosSkyeng', sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 30.24px;
+    cursor: pointer;
+}
+
+h1 {
+    display: flex;
+    color: white;
+    font-family: 'StratosSkyeng', sans-serif;
+    font-weight: 400;
+    font-size: 128px;
+    line-height: 161.28px;
+    letter-spacing: 0.25em;
+    margin-top: 640px;
+    justify-content: center;
+}
+
+button:hover {
+    background-color: #F1D4B7;
+    color: black;
+}
